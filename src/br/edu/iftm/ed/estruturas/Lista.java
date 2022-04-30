@@ -66,22 +66,6 @@ public class Lista<T> {
 		return tamanho;
 	}
 
-	/*public Object busca(int posicao) throws IllegalAccessException{
-		if(!(posicao >= 0 && posicao < tamanho)){
-			throw new IllegalAccessException("Posicao invalida!");
-		}
-		return elementos[posicao];
-	}
-
-	public int busca(Object elemento){
-		for (int i = 0; i < tamanho; i++) {
-			if(elementos[i].equals(elemento)){
-				return i;
-			}
-		}
-		return -1;
-	}*/
-
 	//método da número 2 da lista de exercício
 	public int ultimaOcorrencia(T elemento){
 		int indice = -1;
