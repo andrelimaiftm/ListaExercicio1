@@ -13,13 +13,13 @@ public class Ex9 {
             System.out.println("Digite um numero inteiro: ");
             int numero = entrada.nextInt();
             if(numero == 0) {
-                if (pilhaPar.tamanho() != 0 && pilhaPar.estaVazia()) {
+                if (pilhaPar.estaVazia()) {
                     System.out.println("Pilha dos números pares vazia");
                 } else {
                     pilhaPar.desempilhar();
                 }
 
-                if (pilhaPar.tamanho() != 0 && pilhaImpar.estaVazia()) {
+                if (pilhaImpar.estaVazia()) {
                     System.out.println("Pilha dos números impares vazia");
                 } else {
                     pilhaImpar.desempilhar();

@@ -1,7 +1,5 @@
 package br.edu.iftm.ed.estruturas;
 
-import java.util.Arrays;
-
 public class Pilha<T> {
 
     private T[] elementos;

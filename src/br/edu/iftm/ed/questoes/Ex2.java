@@ -11,5 +11,6 @@ public class Ex2 {
         lista.adiciona("A");
         System.out.println("ultima o ocorrência do A " + lista.ultimaOcorrencia("A"));
         System.out.println("ultima o ocorrência do B " + lista.ultimaOcorrencia("B"));
+        System.out.println("ultima ocorrência do C " + lista.ultimaOcorrencia("C"));
     }
 }

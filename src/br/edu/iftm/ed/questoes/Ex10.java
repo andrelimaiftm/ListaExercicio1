@@ -1,5 +1,6 @@
 package br.edu.iftm.ed.questoes;
 
+
 import br.edu.iftm.ed.classes.Livro;
 import br.edu.iftm.ed.estruturas.Pilha;
 
@@ -22,6 +23,11 @@ public class Ex10 {
             Livro l = new Livro(nome, isbn, ano, autor);
             pilha.empilhar(l);
         }
+        System.out.println(pilha.estaVazia());
+        System.out.println(pilha.tamanho());
+        System.out.println(pilha.topo());
+        System.out.println(pilha.empilhar(new Livro("dadada", "dasds", 2022, "andre")));
+        System.out.println(pilha.desempilhar());
         System.out.println(pilha);
     }
 }

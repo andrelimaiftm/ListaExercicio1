@@ -9,7 +9,7 @@ public class Ex7 {
     public static void main(String[] args) {
         LinkedList<Contato> lista = new LinkedList<>();
         Scanner entrada = new Scanner(System.in);
-        for (int i = 0; i < 30; i++) {
+        for (int i = 0; i < 2; i++) {
             System.out.println("Nome: ");
             String nome = entrada.next();
             System.out.println("Telefone: ");

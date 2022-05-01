@@ -22,6 +22,11 @@ public class Ex11 {
             Livro l = new Livro(nome, isbn, ano, autor);
             pilha.push(l);
         }
+        System.out.println(pilha.isEmpty());
+        System.out.println(pilha.size());
+        System.out.println(pilha.peek());
+        System.out.println(pilha.push(new Livro("dadada", "dasds", 2022, "andre")));
+        System.out.println(pilha.pop());
         System.out.println(pilha);
 
     }

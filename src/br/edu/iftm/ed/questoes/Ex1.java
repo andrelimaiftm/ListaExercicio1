@@ -11,5 +11,6 @@ public class Ex1 {
         lista.adiciona("A");
         lista.adiciona("B");
         System.out.println(lista.contem("A"));
+        System.out.println(lista.contem("C"));
     }
 }
